@@ -1,0 +1,14 @@
+{
+  "name": "co-vay-online",
+  "version": "1.0.0",
+  "description": "Game co vay online 2 nguoi va dau voi may",
+  "main": "server.js",
+  "scripts": {"start": "node server.js", "dev": "node --watch server.js"},
+  "engines": {"node": ">=18"},
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "socket.io": "^4.8.1"
+  }
+}
